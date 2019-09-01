@@ -1,0 +1,22 @@
+{
+  "name": "new-test",
+  "version": "1.0.0",
+  "description": "upload file and imges",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "sharp": "^0.23.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
